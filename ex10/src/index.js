@@ -1,11 +1,13 @@
-function main() {
+function main(numOne, numTwo) {
     // Only change code below this line
-    var x = 5
-    var y = 9
-    var product = x * y;
+    var numOne;
+    var numTwo;
+    var product = numOne * numTwo;
 return product;
     
     }
     
-    console.log(main(5, 9));
+    console.log(main(15, 3));
+    console.log(main(25, 8));
+    console.log(main(425, 10));
     module.exports = (main);
