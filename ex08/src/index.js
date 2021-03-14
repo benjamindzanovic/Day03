@@ -1,11 +1,13 @@
-function main() {
+function main(numOne, numTwo) {
     // Only change code below this line
-    var x = 17
-    var y = 18
-    var sum = x + y;
+    var numOne;
+    var numTwo;
+    var sum = numOne + numTwo;
 return sum;
     
     }
     
-    console.log(main(17, 18));
+    console.log(main(15, 8));
+    console.log(main(5, 28));
+    console.log(main(150, 425));
     module.exports = (main);
