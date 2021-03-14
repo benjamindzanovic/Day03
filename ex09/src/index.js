@@ -1,11 +1,13 @@
-function main() {
+function main(numOne, numTwo) {
     // Only change code below this line
-    var x = 17
-    var y = 2
-    var difference = x - y;
+    var numOne;
+    var numTwo;
+    var difference = numOne - numTwo;
 return difference;
     
     }
     
-    console.log(main(17, 2));
+    console.log(main(15, 8));
+    console.log(main(25, 8));
+    console.log(main(425, 120));
     module.exports = (main);
